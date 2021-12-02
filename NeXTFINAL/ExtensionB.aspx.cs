@@ -30,29 +30,29 @@ public partial class Test1 : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        DateTime time = DateTime.Parse(string.Format("{0}:{1}:{2} {3}", TimeSelector8.Hour, TimeSelector8.Minute, TimeSelector8.Second, TimeSelector8.AmPm));
+        //DateTime time = DateTime.Parse(string.Format("{0}:{1}:{2} {3}", TimeSelector8.Hour, TimeSelector8.Minute, TimeSelector8.Second, TimeSelector8.AmPm));
 
-        Session["Time"] = time.ToString("HH:mm");
+        //Session["Time"] = time.ToString("HH:mm");
         
         listDate();
        // getISS();
         findLocation();
        
 
-        DateTime date = Calendar1.SelectedDate;
+        //DateTime date = Calendar1.SelectedDate;
 
-        string dateTime = Calendar1.SelectedDate.ToString("ddd MMM dd yyyy") + " " + time.ToString("hh:mm tt");
+        //string dateTime = Calendar1.SelectedDate.ToString("ddd MMM dd yyyy") + " " + time.ToString("hh:mm tt");
 
         // String A = "Wed, 01 Dec 2021 03:17:10 GMT";
-        DateTime convertedDate = DateTime.Parse(dateTime);
+        //DateTime convertedDate = DateTime.Parse(dateTime);
         //long s = 1436029902;
 
         //DateTime result = FromUnixTime(s);
         //Response.Write(dateTime);
         //Response.End();
-        Double re = ConvertToUnixTimestamp(convertedDate);
+       // Double re = ConvertToUnixTimestamp(convertedDate);
 
-        long a = 1638328630;
+       // long a = 1638328630;
         //ServicePointManager.Expect100Continue = true;
         //ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
         //string json = (new WebClient()).DownloadString("https://api.wheretheiss.at/v1/coordinates/51.30823209243,-140.58411254882");
