@@ -7,5 +7,5 @@ To read the folder open the folder in Microsoft Visual Studio.
 Then run in the localhost.
 User need to enter date and time then click the "Go !" button.
 The project may not be open in latest Microsoft Visual Studio.
-WARNING !!!-Beware of the bizzare frontend design.
+WARNING !!!-Beware of the bizzare frontend design :)
 
