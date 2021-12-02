@@ -1,4 +1,5 @@
 Hello.
+I had done the project using Extension B.
 The project had been done in Microsoft Visual Studio 10 using ASP.NET (C#).
 As this is my first time using github,the first version of the project had been upload wrongly.
 The final version of the project should be the folder name NeXTFINAL.
